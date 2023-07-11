@@ -99,3 +99,20 @@
     bottom: 100px;
     right: 50px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .inner-box{
+        max-width: 320px;
+    }
+
+    .c1{
+        top: 8px;
+        left: 8px;
+    }
+
+    .c2{
+        bottom: 8px;
+        right: 8px;
+    }
+}
